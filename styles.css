@@ -403,3 +403,7 @@ input:checked + .slider:before { transform: translateX(24px); }
     .pricing-cards-grid, .footer-grid { grid-template-columns: 1fr; }
     .workspace-header-actions { flex-direction: column; align-items: stretch; }
 }
+
+/* ==========================================================================
+   Adapt)
+   ========================================================================== */
