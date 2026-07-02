@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans | SphereDrive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container container">
+            <a href="index.html" id="logo-link" class="logo">
+                <i class="fa-solid fa-circle-nodes logo-icon"></i>
+                <span>SphereDrive</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="pricing.html" class="nav-link active">Pricing</a>
+                <a href="support.html" class="nav-link">Support</a>
+                <a href="api-documentation.html" class="nav-link">API</a>
+                <a href="status.html" class="nav-link">Status</a>
+                <a href="compliance.html" class="nav-link">Compliance</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="nav-dynamic-btn" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container page-spacing">
+        <div class="section-header">
+            <span class="badge">Predictable Billing</span>
+            <h2>Flexible pricing scaled for your digital lifestyle.</h2>
+            <p>Select the ideal structural allocation for your asset workload. Save 30% when choosing our premium yearly billing option.</p>
+            
+            <div class="pricing-toggle-container">
+                <span id="billing-monthly-label" class="toggle-label active">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="pricing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span id="billing-yearly-label" class="toggle-label">Yearly <span class="discount-pill">Save 30%</span></span>
+            </div>
+        </div>
+
+        <div class="pricing-cards-grid">
+            <div class="pricing-card">
+                <div class="card-header-block">
+                    <h3>Sphere Free</h3>
+                    <p class="plan-desc">Essential asset allocation for personal storage safeguards.</p>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="0" data-yearly="0">0</span>
+                        <span class="period">/mo</span>
+                    </div>
+                </div>
+                <button class="btn btn-secondary full-width auth-trigger-btn">Deploy Free Tier</button>
+                <ul class="plan-features-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 300MB of storage</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Resize & crop assets</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Rename files dynamically</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Secure public sharing</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Accelerated file uploads</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Instant asset deletion</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card highlighted">
+                <div class="card-header-block">
+                    <span class="popular-badge">Most Popular</span>
+                    <h3>Sphere Plus</h3>
+                    <p class="plan-desc">Expanded volume allocations with professional background tools.</p>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="5" data-yearly="3.50">5</span>
+                        <span class="period">/mo</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary full-width auth-trigger-btn">Upgrade to Plus</button>
+                <ul class="plan-features-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 1250MB of storage</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Resize, crop & tweak</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Rename files dynamically</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Secure public sharing</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Accelerated file uploads</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Instant asset deletion</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Edit background composition</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Intelligent object removal</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Support scripts & web files type</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header-block">
+                    <h3>Sphere Pro</h3>
+                    <p class="plan-desc">Advanced integrations powered by custom SphereAPI execution nodes.</p>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="12" data-yearly="8.40">12</span>
+                        <span class="period">/mo</span>
+                    </div>
+                </div>
+                <button class="btn btn-secondary full-width auth-trigger-btn">Upgrade to Pro</button>
+                <ul class="plan-features-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 2500MB of storage</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Comprehensive media manipulation</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Dynamic asset metadata controls</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Secure public sharing</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Accelerated file uploads</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Instant asset deletion</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Advanced background editing</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Intelligent object removal</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Support scripts & web files type</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Full access to SphereAPI</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Modular dashboard themes</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header-block">
+                    <h3>Sphere Ultimate</h3>
+                    <p class="plan-desc">Unlimited power equipped with full access to SphereAI models.</p>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="20" data-yearly="14.00">20</span>
+                        <span class="period">/mo</span>
+                    </div>
+                </div>
+                <button class="btn btn-secondary full-width auth-trigger-btn">Upgrade to Ultimate</button>
+                <ul class="plan-features-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 4500MB of storage</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Full structural features included</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Dynamic asset metadata controls</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Advanced background editing</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Intelligent object removal</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Support scripts & web files type</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Full access to SphereAPI</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Modular dashboard themes</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Extra allocated free storage</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fully custom white-label file URLs</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Direct pipeline access to SphereAI</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><i class="fa-solid fa-circle-nodes logo-icon"></i><span>SphereDrive</span></div>
+                <p class="footer-desc">Premium secure cloud file management architecture built with absolute data privacy constraints.</p>
+            </div>
+            <div class="footer-links-col">
+                <h4>Product</h4>
+                <a href="pricing.html">Pricing Plans</a>
+                <a href="framework.html">Ecosystem Framework</a>
+                <a href="status.html">System Status</a>
+            </div>
+            <div class="footer-links-col">
+                <h4>Support & Docs</h4>
+                <a href="support.html">Help Center</a>
+                <a href="api-documentation.html">API Reference</a>
+            </div>
+            <div class="footer-links-col">
+                <h4>Legal</h4>
+                <a href="compliance.html">Compliance Hub</a>
+                <a href="terms-of-use.html">Terms of Use</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 SphereDrive Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="JavaScript/main.js"></script>
+</body>
+</html>
