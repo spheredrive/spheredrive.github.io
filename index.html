@@ -202,13 +202,13 @@
     </footer>
 
     <script>
-  // Sprawdza, czy nagłówek User-Agent zawiera podejrzane słowa lub jest pusty
-  const ua = navigator.userAgent;
-  if (!ua || ua.includes("sqlmap") || ua.includes("curl")) {
+  // Blokada dla programów typu curl oraz botów bez prawidłowego User-Agenta
+  if (!navigator.userAgent || navigator.userAgent.includes("curl")) {
     document.write("<h1>403 Forbidden - Browser Verification Failed</h1>");
     window.stop();
   }
 </script>
+
     <script type="module" src="JavaScript/main.js"></script>
 </body>
 </html>
